@@ -1,0 +1,23 @@
+
+.calendar{
+  display: grid;
+  grid-template-columns: repeat(7, 120px);
+  grid-template-rows: auto;
+  padding: 2rem;
+  border-radius: 4px;
+  gap: 5px;
+}
+.calendar-header{
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.days{
+  height: 100px;
+  background-color: #E6F6F9;
+  padding: .5rem 0rem 0rem .8rem;
+  border-radius: 8px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
